@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Peel Luck Website</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="logo">
+      <img src="images/logo.jpg">
+      <span>Peel Luck</span>
+    </div>
+    <button class="menu-btn"><i class="fas fa-bars"></i></button>
+    <nav class="side-panel">
+      <button class="close-panel"><i class="fas fa-times"></i></button>
+      <a href="#home">Home</a>
+      <a href="#about">About Us</a>
+      <a href="#products">Our Products</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <h1>Peel Luck</h1>
+    <p>Peel to Perfection, Luck in Creation.</p>
+    <a href="#products" class="order-btn"><i class="fas fa-shopping-cart"></i> Order Now</a>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <div class="about-text">
+      <p>Peel Luck, a sustainable fashion brand, is committed to transforming the leather industry by manufacturing wallets from calamansi citrus peels. Merging innovation with eco-friendliness, Peel Luck’s mission is to help reduce waste and promote a circular economy. This new brand seeks to produce eco-friendly wallets that blend style and durability without exceeding the boundaries of craftsmanship. The products serve as a substitute for traditional leather while promoting environmentally friendly practices that support taking responsibility. Peel Luck aims to be a leading brand recognized by the world as one of the new eco-friendly fashion options. As such, the company wishes to inspire others to do so and bring about remarkable change in both the industry and the world.</p>
+      <p>Peel Luck prioritizes the environment and its products by emphasizing sustainable innovation, exceptional quality, a zero-waste economy, ethical sourcing, and transparency. The values of this company provide a clear path to creating products that serve the needs of customers and the environment.</p>
+    </div>
+  </section>
+
+  <section id="products" class="products">
+    <h2>Our Products</h2>
+    <div class="product-cards">
+      <div class="product-card">
+        <img src="images/1.png" alt="Wallet Model A" />
+        <h3>Coin Purse</h3>
+        <h4>Product Description:</h4>
+        <p>*Elegant and durable eco-wallet.</p>
+        <p>*Size: 12 cm by 8.5 cm</p>
+        <p>*Color: Grayish Green</p>
+        <p>*Suitable as a coin purse</p>
+        <a href="#order" class="order-btn"><i class="fas fa-shopping-cart"></i> Order</a>
+      </div>
+      <div class="product-card">
+        <img src="images/2.png" alt="Wallet Model B" />
+        <h3>Card & Bill Holder</h3>
+        <h4>Product Description:</h4>
+        <p>*Stylish and sustainable.</p>
+        <p>*Size: 16.5 cm by 9.5 cm</p>
+        <p>*Color: Brown</p>
+        <p>*Suitable for paper money and cards</p>
+        <a href="#order" class="order-btn"><i class="fas fa-shopping-cart"></i> Order</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="order" class="order">
+    <h2>Place Your Order</h2>
+    <form class="order-form">
+      <label for="model">Product Model:</label>
+      <select id="model" name="model">
+        <option value="Coin Purse">Coin Purse</option>
+        <option value="Card & Bill Holder">Card & Bill Holder</option>
+      </select>
+
+      <label for="quantity">Quantity:</label>
+      <input type="number" id="quantity" name="quantity" min="1" required />
+
+      <label for="address">Delivery Address:</label>
+      <textarea id="address" name="address" rows="3" required></textarea>
+
+      <button type="submit" class="submit-btn">Submit Order</button>
+    </form>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Information</h2>
+    <div class="contact-details">
+      <p><i class="fas fa-phone"></i> 09997159202</p>
+      <p><i class="fab fa-facebook"></i> <a href="https://www.facebook.com/share/1JQgXZ44sV/" target="_blank">Facebook Page: Peel Luck</a></p>
+    </div>
+
+    <h2>Leave Us a Feedback</h2>
+    <div class="feedback-form">
+      <iframe class="basinIframe" src="https://usebasin.com/form/5730e3091847/view/0364422017e2?iframe=true" height="320" width="100%" frameborder="0" style="border: none; overflow: hidden; display: block !important; margin: auto !important;"></iframe>
+    </div>
+  </section>
+
+<!-- Link to CSS -->
+<link rel="stylesheet" href="style.css">
+
+<!-- Link to JavaScript -->
+<script src="script.js" defer></script>
+
+</body>
+</html>
